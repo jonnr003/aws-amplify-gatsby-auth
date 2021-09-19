@@ -10,7 +10,7 @@ Amplify.configure(config)
 const IndexPage = () => (
   <Layout>
     <h1>Welcome To Nüber</h1>
-    <p>Create a new account: <Link to="/app/signup">Sign Up</Link></p>
+    <p>To get started, create a new account: <Link to="/app/signup">Sign Up</Link></p>
     <Link to="/app/login">Sign In</Link><br />
     <Link to="/app/home">Home</Link><br />
     <Link to="/app/profile">Your profile</Link>
